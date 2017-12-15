@@ -1,37 +1,29 @@
-p {
-  font-family: Arial;
+body{
+ background-color: blue;
+ font-family: 'Raleway', sans-serif;
 }
+
 
 h1 {
-  color: maroon;
+  color: white;
+  font-size: 42px;
+  font-weight: 600;
+  text-align: center;
 }
 
-h2.destination {
-  font-family: cursive;
+#banner{
+ background-image: url("https://shouhuzhe01.github.io/image/01.jpg");
+ background-size: cover;
+ background-position: bottom center;
+ height: 700px;
+ width: 100%;
 }
 
-.title {
-  color: teal;
+#banner.content h1{
+border: 3px solid white;
+position: relative;
+top: 50px;
+width: 400px;
+margin: 00 auto;
 }
 
-.uppercase {
-  text-transform: uppercase;
-}
-.publish-time {
-  color: gray;
-}
-
-.cursive {
-  font-family: cursive;
-}
-
-.capitalize {
-  text-transform: capitalize;
-}
-
-.description h5 {
-  color: rebeccapurple;
-}
-h5,p{
-  font-family: Georgia;
-}
